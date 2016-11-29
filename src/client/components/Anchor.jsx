@@ -27,8 +27,8 @@ export default class Anchor extends React.Component {
 					<Route path="/signin" component={Signin}/>
 					<Route path="/lobby" component={Lobby}/>
 					<Route path="/register" component={Register}/>
-					<Route path="/*" component={NotFound}/>
 					<Route path="/addchallenge" component={AddChallenge}/>
+					<Route path="/*" component={NotFound}/>
 				</Route>
 			</Router>
 			</div>
